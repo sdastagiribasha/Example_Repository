@@ -7,6 +7,7 @@ template>
   <lightning-card title="LWC Component">   
   <template for:each={contactsData} for:item="con"> 
     Id: <h2 key={con.id}>{con.Id}</h2>
+    salutaion: <h1 key={con.id}>{con.salutation}</h1>
     LastName: <h3 key={con.id}>{con.LastName}</h3>
     FirstName: <h4 key={con.id}>{con.FirstName}</h4>
   </template>
